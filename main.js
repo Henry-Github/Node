@@ -1,4 +1,5 @@
 'use strict';
-let sayHello = require('./hello.js');
+let say = require('./hello.js');
 let name = 'Henry';
-sayHello(name);
+say.sayHello(name);
+say.sayHi(name);
