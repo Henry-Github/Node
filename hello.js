@@ -1,2 +1,8 @@
 'use strict';
-console.log('Hello World');
+const prefix = 'Hello';
+
+function sayHello(name) {
+    console.log(prefix + ',' + name + '!')
+}
+
+module.exports = sayHello;
