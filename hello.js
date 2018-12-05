@@ -1,8 +1,18 @@
 'use strict';
-const prefix = 'Hello';
+
 
 function sayHello(name) {
+    let prefix = 'Hello';
     console.log(prefix + ',' + name + '!')
 }
 
-module.exports = sayHello;
+function sayHi(name) {
+    let prefix = 'Hi';
+    console.log(prefix + ',' + name + '!')
+}
+
+module.exports = {
+    sayHello: sayHello,
+    sayHi: sayHi,
+
+};
