@@ -1,0 +1,5 @@
+JavaScript:
+  environment: libiraies:node
+  modeule:1.定义:function f(){}
+                module.exports = f;
+          2.调用:f = require('相对路径/moduel.js')
